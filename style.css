@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+.main{
+    display: inline-flex;
+    font-family: cursive;
+    justify-content: center;
+    margin-bottom: 80px;
+    background-color: blueviolet;
+}
+.written-part{
+    padding-left: 50px;
+    padding-right: 30px;
+    margin: 30px 150px 40px 50px;
+    place-content: center;
+}
+.image-part{
+    width: 75%;
+    height: 550px;
+    border-radius: 50%;
+    margin: 40px 20px 50px 0;
+    border: 3px solid blue;
+}
+.written-part h1, .btn{
+    text-transform: uppercase;
+}
+.written-part h1{
+    font-size: 26px;
+}
+.btn{
+    width: 40%;
+    height: 60px;
+    background-color: blue;
+    color: beige;
+    border: none;
+    font-size: 15px;
+}
+.written-part h1, p{
+    word-spacing: 2px;
+    color: beige;
+}
